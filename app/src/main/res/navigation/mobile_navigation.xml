@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.android.project.UserInterface.Home.HomeFragment"
+        android:label="Новости"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.android.project.UserInterface.Categories.CategoriesFragment"
+        android:label="@string/categories"
+        tools:layout="@layout/fragment_categories"/>
+
+    <activity
+        android:id="@+id/nav_admin"
+        android:name="com.android.project.UserInterface.Admin.AdminFragment"
+        android:label="@string/admin"
+        tools:layout="@layout/fragment_admin"/>
+
+    <activity
+        android:id="@+id/nav_cp"
+        android:name="com.android.project.UserInterface.ContentProvider.CPActivity"
+        android:label="@string/cp"
+        tools:layout="@layout/activity_cp"/>
+</navigation>

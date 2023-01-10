@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="title_activity_main">AndroidProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MusicBoard</string>
+    <string name="nav_header_subtitle">Новости мира музыки</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_news">Посты</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="categories">Категории</string>
+    <string name="admin">Пользователи</string>
+    <string name="cp">Информация</string>
+</resources>
